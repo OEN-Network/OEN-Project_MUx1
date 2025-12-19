@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "github-copilot": {
+      "type": "http",
+      "url": "https://api.github.com/copilot",
+      "headers": {
+        "Authorization": "Bearer ${GITHUB_TOKEN}",
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28"
+      },
+      "galleryUrl": "https://github.com/marketplace?type=apps&query=copilot",
+      "version": "1.0.0"
+    }
+  }
+}
